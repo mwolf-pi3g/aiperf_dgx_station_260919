@@ -1,0 +1,12 @@
+AIPerf Plot Export Summary
+==================================================
+
+Generated 5 plots:
+
+  - ttft_over_time.png
+  - ttft_timeline.png
+  - timeslices_ttft.png
+  - timeslices_itl.png
+  - gpu_utilization_and_throughput_over_time.png
+
+Output directory: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_station_260919/artifacts/20260919_051813_zai-org_GLM-5.3-Flash_c1,4,16,32,64,128/profile_runs/trial_0001/concurrency_128/plots

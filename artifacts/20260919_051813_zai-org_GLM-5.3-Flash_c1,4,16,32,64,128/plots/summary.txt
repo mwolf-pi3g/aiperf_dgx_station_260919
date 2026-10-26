@@ -1,0 +1,11 @@
+AIPerf Plot Export Summary
+==================================================
+
+Generated 4 plots:
+
+  - pareto_curve_throughput_per_gpu_vs_latency.png
+  - pareto_curve_throughput_per_gpu_vs_interactivity.png
+  - ttft_vs_throughput.png
+  - latency_throughput_uncertainty.png
+
+Output directory: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_station_260919/artifacts/20260919_051813_zai-org_GLM-5.3-Flash_c1,4,16,32,64,128/plots
