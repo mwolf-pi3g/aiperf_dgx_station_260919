@@ -1,0 +1,164 @@
+{
+  "benchmark_id": "5aeb3931914448ca8f6b00480dc7d76a",
+  "sweep_id": "2945b014-44b0-457b-a5b0-e9b18ba8f601",
+  "cfg": {
+    "models": {
+      "strategy": "round_robin",
+      "items": [
+        {
+          "name": "zai-org/GLM-5.3-Flash"
+        }
+      ]
+    },
+    "endpoint": {
+      "urls": [
+        "http://localhost:8000"
+      ],
+      "url_strategy": "round_robin",
+      "type": "chat",
+      "path": "/v1/chat/completions",
+      "timeout": 21600.0,
+      "streaming": true,
+      "connection_reuse": "pooled",
+      "use_legacy_max_tokens": false,
+      "use_server_token_count": true,
+      "headers": {},
+      "extra": {
+        "ignore_eos": true,
+        "reasoning_effort": "low"
+      },
+      "download_video_content": false,
+      "uuid_and_strip": false,
+      "wait_for_model_timeout": 0.0,
+      "wait_for_model_interval": 5.0,
+      "wait_for_model_mode": "inference"
+    },
+    "datasets": [
+      {
+        "name": "main",
+        "type": "synthetic",
+        "entries": 100,
+        "random_seed": 42,
+        "sampling": "sequential",
+        "prompts": {
+          "isl": {
+            "mean": 1024.0,
+            "stddev": 0.0
+          },
+          "osl": {
+            "mean": 512.0,
+            "stddev": 0.0
+          },
+          "batch_size": 1,
+          "cache_bust": {
+            "target": "none"
+          }
+        },
+        "turn_delay_ratio": 1.0
+      }
+    ],
+    "phases": [
+      {
+        "adaptive_scale": false,
+        "adaptive_min_completed_requests": 1,
+        "adaptive_control_variable": "concurrency",
+        "adaptive_control_min": 1.0,
+        "adaptive_scale_strategy_type": "ramp_until_fail",
+        "adaptive_scale_step_policy": "sla_margin",
+        "adaptive_scale_base_step": 10,
+        "adaptive_scale_max_step_multiplier": 4,
+        "adaptive_scale_step_percent": 25.0,
+        "name": "profiling",
+        "kind": "profiling",
+        "type": "concurrency",
+        "exclude_from_results": false,
+        "duration": 300.0,
+        "concurrency": 4,
+        "grace_period": 30.0,
+        "sla": [],
+        "seamless": false,
+        "trajectory_start_min_ratio": 0.25,
+        "trajectory_start_max_ratio": 0.75,
+        "burst_phase_starts": false
+      }
+    ],
+    "artifacts": {
+      "dir": "artifacts/20260919_051813_zai-org_GLM-5.3-Flash_c1,4,16,32,64,128",
+      "summary": [
+        "json"
+      ],
+      "records": [
+        "jsonl"
+      ],
+      "raw": false,
+      "trace": false,
+      "slice_duration": 10.0,
+      "show_trace_timing": false,
+      "user_files": [],
+      "auto_plot": true,
+      "plot_required": false,
+      "export_outputs_json": false
+    },
+    "tokenizer": {
+      "revision": "main",
+      "trust_remote_code": false,
+      "apply_chat_template": false
+    },
+    "gpu_telemetry": {
+      "enabled": true,
+      "urls": [],
+      "collector": "pynvml",
+      "mode": "summary"
+    },
+    "server_metrics": {
+      "enabled": true,
+      "urls": [],
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "discovery": {
+        "mode": "auto"
+      }
+    },
+    "network_latency": {
+      "enabled": false,
+      "ping_interval": 1.0
+    },
+    "otel": {
+      "stream_metrics_enabled": true,
+      "stream_timing_enabled": true,
+      "custom_resource_attributes": {}
+    },
+    "mlflow": {
+      "experiment": "aiperf"
+    },
+    "wandb": {},
+    "runtime": {
+      "ui": "simple",
+      "service_run_type": "multiprocessing"
+    },
+    "logging": {
+      "level": "INFO"
+    },
+    "metrics": {},
+    "unsafe_override": false
+  },
+  "variation": {
+    "index": 1,
+    "label": "phases.profiling.concurrency=4",
+    "values": {
+      "phases.profiling.concurrency": 4
+    }
+  },
+  "trial": 0,
+  "artifact_dir": "/root/llm_perf/artifacts/20260919_051813_zai-org_GLM-5.3-Flash_c1,4,16,32,64,128/profile_runs/trial_0001/concurrency_4",
+  "label": "run_0001",
+  "cli_command": "aiperf profile --ui 'simple' --endpoint-type 'chat' --endpoint '/v1/chat/completions' --streaming --url 'http://localhost:8000' --benchmark-duration 300 --benchmark-grace-period 30 --num-profile-runs 2 --profile-run-cooldown-seconds 60 --gpu-telemetry 'pynvml' --slice-duration 10 --auto-plot --random-seed 42 --prompt-input-tokens-mean 1024 --prompt-output-tokens-mean 512 --prompt-input-tokens-stddev 0 --prompt-output-tokens-stddev 0 --extra-inputs 'ignore_eos:true' --model 'zai-org/GLM-5.3-Flash' --concurrency '1,4,16,32,64,128' --artifact-dir './artifacts/20260919_051813_zai-org_GLM-5.3-Flash_c1,4,16,32,64,128' --use-server-token-count --extra-inputs '{\"reasoning_effort\":\"low\"}'",
+  "random_seed": 43,
+  "variables": {},
+  "resolved": {
+    "gpu_telemetry_mode": "summary",
+    "artifact_dir_created": false
+  }
+}
