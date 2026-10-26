@@ -1,0 +1,249 @@
+2026-09-19 05:13:55 - aiperf.plot.logging - INFO - Plot logging initialized with level: INFO
+2026-09-19 05:13:55 - aiperf.plot.logging - INFO - Log file: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/plots/aiperf_plot.log
+2026-09-19 05:13:55 - aiperf.plot.plot_controller - INFO - Server metrics downsampling: 5.0s windows, mean aggregation
+2026-09-19 05:13:55 - ModeDetector - INFO - Found 6 unique run directories
+2026-09-19 05:13:55 - ModeDetector - INFO - Detected MULTI_RUN mode: 6 run directories found
+2026-09-19 05:13:55 - aiperf.plot.plot_controller - INFO - Generating multi-run plots (6 runs)
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4
+2026-09-19 05:13:55 - DataLoader - INFO - Loading run from: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64
+2026-09-19 05:13:55 - DataLoader - INFO - Loaded aggregate-only run from /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64
+2026-09-19 05:13:55 - DataLoader - INFO - Found 78 available metrics: ['active_decode_throughput', 'active_decode_throughput_per_user', 'active_prefill_throughput', 'active_prefill_throughput_per_user', 'active_total_throughput', 'benchmark_duration', 'credit_to_start_latency', 'decode_duration', 'e2e_output_token_throughput', 'effective_concurrency', 'effective_decode_concurrency', 'effective_decode_throughput', 'effective_decode_throughput_per_user', 'effective_latency', 'effective_prefill_concurrency', 'effective_prefill_throughput', 'effective_prefill_throughput_per_user', 'effective_total_throughput', 'http_req_blocked', 'http_req_chunks_received', 'http_req_chunks_sent', 'http_req_connecting', 'http_req_connection_overhead', 'http_req_connection_reused', 'http_req_data_received', 'http_req_data_sent', 'http_req_dns_lookup', 'http_req_duration', 'http_req_receiving', 'http_req_sending', 'http_req_total', 'http_req_waiting', 'input_sequence_length', 'input_token_throughput', 'inter_chunk_latency', 'inter_token_latency', 'nvidia_average_gpu_power', 'nvidia_energy_delay_product', 'nvidia_energy_per_output_token', 'nvidia_energy_per_request', 'nvidia_energy_per_total_token', 'nvidia_energy_per_user', 'nvidia_output_tokens_per_joule', 'nvidia_output_tps_per_watt', 'nvidia_performance_per_watt', 'nvidia_total_gpu_energy', 'nvidia_total_gpu_power', 'osl_mismatch_count', 'osl_mismatch_diff_pct', 'output_sequence_length', 'output_token_count', 'output_token_throughput', 'output_token_throughput_per_user', 'overall_usage_prompt_cache_read_pct', 'prefill_throughput_per_user', 'reasoning_token_count', 'request_count', 'request_latency', 'request_throughput', 'time_to_first_output_token', 'time_to_first_token', 'time_to_second_token', 'tokens_in_flight', 'total_isl', 'total_osl', 'total_output_tokens', 'total_reasoning_tokens', 'total_token_throughput', 'total_usage_completion_tokens', 'total_usage_prompt_cache_read_tokens', 'total_usage_prompt_tokens', 'total_usage_reasoning_tokens', 'total_usage_total_tokens', 'usage_completion_tokens', 'usage_prompt_cache_read_tokens', 'usage_prompt_tokens', 'usage_reasoning_tokens', 'usage_total_tokens']
+2026-09-19 05:13:55 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_latency': using groups=['model']
+2026-09-19 05:13:55 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_interactivity': using groups=['model']
+2026-09-19 05:13:55 - aiperf.plot.config - INFO - Classification disabled for plot 'ttft_vs_throughput': using groups=['model']
+2026-09-19 05:13:55 - aiperf.plot.config - INFO - Classification disabled for plot 'latency_throughput_uncertainty': using groups=['model']
+2026-09-19 05:13:55 - MultiRunPNGExporter - INFO - DataFrame has 6 unique experiment_groups: ['phases.profiling.concurrency=1', 'phases.profiling.concurrency=128', 'phases.profiling.concurrency=16', 'phases.profiling.concurrency=32', 'phases.profiling.concurrency=4', 'phases.profiling.concurrency=64']
+2026-09-19 05:13:55 - MultiRunPNGExporter - INFO - DataFrame has 1 unique experiment_types: ['treatment']
+2026-09-19 05:13:55 - MultiRunPNGExporter - WARNING - Skipping plot 'pareto_curve_throughput_per_gpu_vs_latency': required metric column(s) missing from run data: ['output_token_throughput_per_gpu']. Verify the benchmark recorded these metrics (e.g. 'time_to_first_token' only exists for streaming runs).
+2026-09-19 05:13:55 - MultiRunPNGExporter - WARNING - Skipping plot 'pareto_curve_throughput_per_gpu_vs_interactivity': required metric column(s) missing from run data: ['output_token_throughput_per_gpu']. Verify the benchmark recorded these metrics (e.g. 'time_to_first_token' only exists for streaming runs).
+2026-09-19 05:13:55 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 05:13:55 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-09-19 05:13:55 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-09-19 05:13:55 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 05:13:55 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'RedHatAI/GLM-5.3-Flash-NVFP4': '#76B900'}
+2026-09-19 05:13:55 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-09-19 05:13:55 - choreographer.browsers.chromium - INFO - Found chromium path: /snap/chromium/3527/usr/lib/chromium-browser/chrome
+2026-09-19 05:13:55 - choreographer.utils._tmpfile - INFO - Temp directory created: /root/.choreographer-kz6q3fjk.
+2026-09-19 05:13:55 - choreographer.browser_async - INFO - Opening browser.
+2026-09-19 05:13:55 - choreographer.utils._tmpfile - INFO - Temp directory created: /root/.choreographer-ynhhqzim.
+2026-09-19 05:13:55 - choreographer.browsers.chromium - INFO - Temporary directory at: /root/.choreographer-ynhhqzim
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Conforming 1 to file:///root/.choreographer-kz6q3fjk/index.html
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Got F7D6
+2026-09-19 05:13:56 - kaleido._kaleido_tab - INFO - Processing TTFT_vs_Throughput.png
+2026-09-19 05:13:56 - kaleido._kaleido_tab - INFO - Sending big command for TTFT_vs_Throughput.png.
+2026-09-19 05:13:56 - kaleido._kaleido_tab - INFO - Sent big command for TTFT_vs_Throughput.png.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Reloading tab F7D6 before return.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Putting tab F7D6 back (queue size: 0).
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-09-19 05:13:56 - choreographer.browser_async - INFO - Closing browser.
+2026-09-19 05:13:56 - choreographer.browser_async - INFO - Closing browser.
+2026-09-19 05:13:56 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-19 05:13:56 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-19 05:13:56 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-19 05:13:57 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-19 05:13:57 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-19 05:13:57 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-19 05:13:57 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-19 05:13:57 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-19 05:13:57 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-19 05:13:57 - MultiRunPNGExporter - WARNING - Skipping plot 'latency_throughput_uncertainty': required metric column(s) missing from run data: ['output_token_throughput_per_gpu']. Verify the benchmark recorded these metrics (e.g. 'time_to_first_token' only exists for streaming runs).
+2026-10-26 10:40:59 - aiperf.plot.logging - INFO - Plot logging initialized with level: INFO
+2026-10-26 10:40:59 - aiperf.plot.logging - INFO - Log file: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_station_260919/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/plots/aiperf_plot.log
+2026-10-26 10:40:59 - aiperf.plot.plot_controller - INFO - Server metrics downsampling: 5.0s windows, mean aggregation
+2026-10-26 10:40:59 - ModeDetector - INFO - Found 6 unique run directories
+2026-10-26 10:40:59 - ModeDetector - INFO - Detected MULTI_RUN mode: 6 run directories found
+2026-10-26 10:40:59 - aiperf.plot.plot_controller - INFO - Generating multi-run plots (6 runs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4
+2026-10-26 10:40:59 - DataLoader - INFO - Loading run from: /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64
+2026-10-26 10:40:59 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:40:59 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:40:59 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:40:59 - DataLoader - INFO - Loaded aggregate-only run from /tmp/claude-1001/-home-mwolf--config-Claude-scratch-workspaces-e8647dc7-f20b-40d0-87e9-d1f258b3abbb-bcef7351-37a2-4ad5-ae66-0b308a212fe4-scratch-2026-10-26-544d73/ffe04702-e40f-48d7-b06d-5a08d35dd634/scratchpad/mirror/aiperf_dgx_station_260919/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64
+2026-10-26 10:40:59 - DataLoader - INFO - Found 79 available metrics: ['active_decode_throughput', 'active_decode_throughput_per_user', 'active_prefill_throughput', 'active_prefill_throughput_per_user', 'active_total_throughput', 'benchmark_duration', 'credit_to_start_latency', 'decode_duration', 'e2e_output_token_throughput', 'effective_concurrency', 'effective_decode_concurrency', 'effective_decode_throughput', 'effective_decode_throughput_per_user', 'effective_latency', 'effective_prefill_concurrency', 'effective_prefill_throughput', 'effective_prefill_throughput_per_user', 'effective_total_throughput', 'http_req_blocked', 'http_req_chunks_received', 'http_req_chunks_sent', 'http_req_connecting', 'http_req_connection_overhead', 'http_req_connection_reused', 'http_req_data_received', 'http_req_data_sent', 'http_req_dns_lookup', 'http_req_duration', 'http_req_receiving', 'http_req_sending', 'http_req_total', 'http_req_waiting', 'input_sequence_length', 'input_token_throughput', 'inter_chunk_latency', 'inter_token_latency', 'nvidia_average_gpu_power', 'nvidia_energy_delay_product', 'nvidia_energy_per_output_token', 'nvidia_energy_per_request', 'nvidia_energy_per_total_token', 'nvidia_energy_per_user', 'nvidia_output_tokens_per_joule', 'nvidia_output_tps_per_watt', 'nvidia_performance_per_watt', 'nvidia_total_gpu_energy', 'nvidia_total_gpu_power', 'osl_mismatch_count', 'osl_mismatch_diff_pct', 'output_sequence_length', 'output_token_count', 'output_token_throughput', 'output_token_throughput_per_gpu', 'output_token_throughput_per_user', 'overall_usage_prompt_cache_read_pct', 'prefill_throughput_per_user', 'reasoning_token_count', 'request_count', 'request_latency', 'request_throughput', 'time_to_first_output_token', 'time_to_first_token', 'time_to_second_token', 'tokens_in_flight', 'total_isl', 'total_osl', 'total_output_tokens', 'total_reasoning_tokens', 'total_token_throughput', 'total_usage_completion_tokens', 'total_usage_prompt_cache_read_tokens', 'total_usage_prompt_tokens', 'total_usage_reasoning_tokens', 'total_usage_total_tokens', 'usage_completion_tokens', 'usage_prompt_cache_read_tokens', 'usage_prompt_tokens', 'usage_reasoning_tokens', 'usage_total_tokens']
+2026-10-26 10:40:59 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_latency': using groups=['model']
+2026-10-26 10:40:59 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_interactivity': using groups=['model']
+2026-10-26 10:40:59 - aiperf.plot.config - INFO - Classification disabled for plot 'ttft_vs_throughput': using groups=['model']
+2026-10-26 10:40:59 - aiperf.plot.config - INFO - Classification disabled for plot 'latency_throughput_uncertainty': using groups=['model']
+2026-10-26 10:40:59 - MultiRunPNGExporter - INFO - DataFrame has 6 unique experiment_groups: ['phases.profiling.concurrency=1', 'phases.profiling.concurrency=128', 'phases.profiling.concurrency=16', 'phases.profiling.concurrency=32', 'phases.profiling.concurrency=4', 'phases.profiling.concurrency=64']
+2026-10-26 10:40:59 - MultiRunPNGExporter - INFO - DataFrame has 1 unique experiment_types: ['treatment']
+2026-10-26 10:41:00 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:00 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-10-26 10:41:00 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-10-26 10:41:00 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:00 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'RedHatAI/GLM-5.3-Flash-NVFP4': '#76B900'}
+2026-10-26 10:41:02 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:41:02 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:41:02 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpqlr7snbg.
+2026-10-26 10:41:02 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:41:02 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpyl99pvp7.
+2026-10-26 10:41:02 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpyl99pvp7
+2026-10-26 10:41:04 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmpqlr7snbg/index.html
+2026-10-26 10:41:04 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:41:09 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:41:09 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:41:09 - kaleido.kaleido - INFO - Got 8ADE
+2026-10-26 10:41:09 - kaleido._kaleido_tab - INFO - Processing Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png
+2026-10-26 10:41:09 - kaleido._kaleido_tab - INFO - Sending big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png.
+2026-10-26 10:41:10 - kaleido._kaleido_tab - INFO - Sent big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png.
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Reloading tab 8ADE before return.
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Putting tab 8ADE back (queue size: 0).
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:41:10 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:10 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:10 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:10 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:10 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:11 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:11 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:11 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:11 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-10-26 10:41:11 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-10-26 10:41:11 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:11 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'RedHatAI/GLM-5.3-Flash-NVFP4': '#76B900'}
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:11 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:41:11 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmp1s819q8r.
+2026-10-26 10:41:11 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:41:11 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpph8xqt16.
+2026-10-26 10:41:11 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpph8xqt16
+2026-10-26 10:41:12 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmp1s819q8r/index.html
+2026-10-26 10:41:12 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:41:17 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Got 4456
+2026-10-26 10:41:18 - kaleido._kaleido_tab - INFO - Processing Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png
+2026-10-26 10:41:18 - kaleido._kaleido_tab - INFO - Sending big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png.
+2026-10-26 10:41:18 - kaleido._kaleido_tab - INFO - Sent big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Reloading tab 4456 before return.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Putting tab 4456 back (queue size: 0).
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:41:18 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:18 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:18 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:18 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:18 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:19 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:19 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:19 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:19 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-10-26 10:41:19 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-10-26 10:41:19 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-10-26 10:41:19 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'RedHatAI/GLM-5.3-Flash-NVFP4': '#76B900'}
+2026-10-26 10:41:19 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:41:19 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmp5vtgjb7h.
+2026-10-26 10:41:19 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:41:19 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmper0sbdt6.
+2026-10-26 10:41:19 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmper0sbdt6
+2026-10-26 10:41:21 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmp5vtgjb7h/index.html
+2026-10-26 10:41:21 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:41:26 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:41:26 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:41:26 - kaleido.kaleido - INFO - Got B279
+2026-10-26 10:41:26 - kaleido._kaleido_tab - INFO - Processing TTFT_vs_Throughput.png
+2026-10-26 10:41:26 - kaleido._kaleido_tab - INFO - Sending big command for TTFT_vs_Throughput.png.
+2026-10-26 10:41:26 - kaleido._kaleido_tab - INFO - Sent big command for TTFT_vs_Throughput.png.
+2026-10-26 10:41:26 - kaleido.kaleido - INFO - Reloading tab B279 before return.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Putting tab B279 back (queue size: 0).
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:41:27 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:27 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:27 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:27 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:41:27 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpc888vnjq.
+2026-10-26 10:41:27 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:41:27 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpb8wqz6ig.
+2026-10-26 10:41:27 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpb8wqz6ig
+2026-10-26 10:41:29 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmpc888vnjq/index.html
+2026-10-26 10:41:29 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:41:33 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:41:33 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:41:33 - kaleido.kaleido - INFO - Got 2272
+2026-10-26 10:41:33 - kaleido._kaleido_tab - INFO - Processing Latency_vs_Throughput_Joint_Uncertainty.png
+2026-10-26 10:41:33 - kaleido._kaleido_tab - INFO - Sending big command for Latency_vs_Throughput_Joint_Uncertainty.png.
+2026-10-26 10:41:34 - kaleido._kaleido_tab - INFO - Sent big command for Latency_vs_Throughput_Joint_Uncertainty.png.
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Reloading tab 2272 before return.
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Putting tab 2272 back (queue size: 0).
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:41:34 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:34 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:41:34 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:34 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:34 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:41:35 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:41:35 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:41:35 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
