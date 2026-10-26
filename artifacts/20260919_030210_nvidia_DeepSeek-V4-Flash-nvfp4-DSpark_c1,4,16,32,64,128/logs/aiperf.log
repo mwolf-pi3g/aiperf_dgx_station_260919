@@ -1,0 +1,159 @@
+2026-09-19 03:02:12.442 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 03:02:12.444 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-19 03:02:12.444 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-19 03:02:12.444 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 2
+2026-09-19 03:02:12.445 - aiperf.cli_runner._multi_run - INFO -   Total runs: 12
+2026-09-19 03:02:12.445 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-19 03:02:12.445 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 60.0s
+2026-09-19 03:02:12.446 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 03:02:12.446 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 4620s
+2026-09-19 03:02:12.448 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 2 trials x 6 variations
+2026-09-19 03:02:12.448 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-19 03:02:13.233 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:02:13.241 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:02:13.242 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:02:13.245 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:07:21.166 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-19 03:07:21.970 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:07:21.979 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:07:21.979 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:07:21.980 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:12:31.617 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-19 03:12:32.393 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:12:32.401 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:12:32.402 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:12:32.402 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:17:41.891 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-19 03:17:42.664 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:17:42.673 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:17:42.673 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:17:42.674 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:22:50.153 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-19 03:22:50.933 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:22:50.941 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:22:50.942 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:22:50.942 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:28:02.017 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-19 03:28:02.787 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:28:02.795 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:28:02.796 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:28:02.796 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:33:27.146 - aiperf.orchestrator.orchestrator - INFO - Inter-trial cooldown: 60.0s
+2026-09-19 03:34:27.194 - aiperf.orchestrator.orchestrator - INFO - [v0 t1] Executing run_0002...
+2026-09-19 03:34:27.969 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:34:27.978 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:34:27.978 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:34:27.979 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:39:38.300 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 03:39:38.303 - aiperf.orchestrator.orchestrator - INFO - [v1 t1] Executing run_0002...
+2026-09-19 03:39:39.078 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:39:39.087 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:39:39.087 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:39:39.088 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:44:49.429 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 03:44:49.431 - aiperf.orchestrator.orchestrator - INFO - [v2 t1] Executing run_0002...
+2026-09-19 03:44:50.215 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:44:50.224 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:44:50.224 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:44:50.225 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:50:04.034 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 03:50:04.037 - aiperf.orchestrator.orchestrator - INFO - [v3 t1] Executing run_0002...
+2026-09-19 03:50:04.817 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:50:04.826 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:50:04.826 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:50:04.827 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 03:55:28.820 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 03:55:28.822 - aiperf.orchestrator.orchestrator - INFO - [v4 t1] Executing run_0002...
+2026-09-19 03:55:29.596 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 03:55:29.604 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 03:55:29.605 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 03:55:29.605 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 04:00:48.053 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                            64                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 04:00:48.056 - aiperf.orchestrator.orchestrator - INFO - [v5 t1] Executing run_0002...
+2026-09-19 04:00:48.825 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:00:48.833 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/DeepSeek-V4-Flash-nvfp4-DSpark detected
+2026-09-19 04:00:48.833 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:00:48.834 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/DeepSeek-V4-Flash-nvfp4-DSpark']
+2026-09-19 04:06:07.653 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                            64                                                                                                2  
+                           128                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 04:06:07.656 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 12/12 runs successful
+2026-09-19 04:06:07.657 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 04:06:07.657 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 04:06:07.658 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-19 04:06:07.864 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-19 04:06:07.865 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:07.866 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.866 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-19 04:06:07.867 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.889 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-19 04:06:07.890 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-19 04:06:07.890 - aiperf.cli_runner._multi_run - INFO - 
+2026-09-19 04:06:07.891 - aiperf.cli_runner._multi_run - INFO - Best Configurations:
+2026-09-19 04:06:07.891 - aiperf.cli_runner._multi_run - INFO -   Best throughput: concurrency=128 (4.08 requests/sec)
+2026-09-19 04:06:07.891 - aiperf.cli_runner._multi_run - INFO -   Best latency (p99): concurrency=1 (1181.52 ms)
+2026-09-19 04:06:07.891 - aiperf.cli_runner._multi_run - INFO -   Pareto optimal points: [{'concurrency': 1}, {'concurrency': 4}, {'concurrency': 16}, {'concurrency': 128}]
+2026-09-19 04:06:07.899 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.899 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:07.900 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.928 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.929 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:07.930 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.958 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:07.958 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.959 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.987 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:07.988 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:07.988 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=64) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:08.016 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.csv
+2026-09-19 04:06:08.017 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.json
+2026-09-19 04:06:08.018 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=128) JSON: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_030210_nvidia_DeepSeek-V4-Flash-nvfp4-DSpark_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.csv
