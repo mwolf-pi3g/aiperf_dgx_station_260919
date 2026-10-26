@@ -1,0 +1,32 @@
+# Big-tier override. Weights 328.18 GiB (352.38 GB) vs ~249.5 GiB usable HBM3e on
+# this GB300 DGX Station; experts spill to Grace LPDDR over NVLink-C2C.
+#
+# Follows NVIDIA's single-DGX-Station recipe VERBATIM, including its pinned image:
+#   github.com/NVIDIA-NeMo/nemotron/tree/main/usage-cookbook/Nemotron-3-Ultra/StationDeploymentGuide
+#
+# NOTE: this is the ONLY model not on vllm/vllm-openai:v0.29.0. The recipe pins
+# v0.22.0 and VLLM_NVFP4_GEMM_BACKEND only exists there (v0.29.0 moved it to
+# kernel_config.moe_backend). Results from this model are therefore NOT directly
+# comparable with the rest of the campaign -- record the image tag with any results.
+#
+# History on v0.29.0 (2026-09-17), all OOM in the post-load profiling pass with the
+# GPU pegged and thousands of CUDACachingAllocator warnings:
+#   offload 150, no params filter  -> non-weight usage  72.0 GiB
+#   offload 200, no params filter  -> non-weight usage 122.5 GiB  (grew 1:1 with freed VRAM)
+#   offload 150 + params=experts   -> offloaded 151.25 GiB, still OOM
+#   + moe_backend=flashinfer_trtllm -> config confirmed applied, still OOM
+# MoEPrepareAndFinalizeNoDPEPMonolithic is expected at TP1 (no expert parallelism),
+# not a misconfiguration -- NVIDIA's multi-GPU recipes rely on EP to distribute the
+# expert workspace, which has no TP1 equivalent.
+#
+# max-num-seqs 64 (recipe says 256) -- strictly less memory, and matches the tier.
+services:
+  vllm:
+    image: vllm/vllm-openai:v0.22.0
+    environment:
+      VLLM_WEIGHT_OFFLOADING_DISABLE_PIN_MEMORY: "1"
+      VLLM_NVFP4_GEMM_BACKEND: "flashinfer-trtllm"
+    command: >
+      --model nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4 --served-model-name nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4 --host 0.0.0.0 --port 8000 --max-model-len 32768 --gpu-memory-utilization 0.90 --cpu-offload-gb 150 --cpu-offload-params experts --max-num-batched-tokens 8192 --max-num-seqs 128 --enable-prompt-tokens-details --enable-prefix-caching --enable-chunked-prefill --trust-remote-code --reasoning-parser nemotron_v3 --kv-cache-dtype fp8 --async-scheduling --kernel_config '{"enable_flashinfer_autotune":false}'
+    healthcheck:
+      start_period: 3600s

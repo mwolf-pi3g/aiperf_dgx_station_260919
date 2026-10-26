@@ -1,0 +1,42 @@
+[
+  {
+    "container_name": "vllm-minimaxai-minimax-m2-7",
+    "model": "MiniMaxAI/MiniMax-M2.7",
+    "start_time": "2026-09-18T17:49:15.542Z",
+    "end_time": "2026-09-18T17:52:12.652Z",
+    "total_time_ms": 177110,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-deepseek-v4-flash-nvfp4-dspark",
+    "model": "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
+    "start_time": "2026-09-18T18:57:58.321Z",
+    "end_time": "2026-09-18T19:02:10.414Z",
+    "total_time_ms": 252093,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-redhatai-glm-5-3-flash-nvfp4",
+    "model": "RedHatAI/GLM-5.3-Flash-NVFP4",
+    "start_time": "2026-09-18T20:06:16.743Z",
+    "end_time": "2026-09-18T20:09:43.462Z",
+    "total_time_ms": 206719,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-zai-org-glm-5-3-flash",
+    "model": "zai-org/GLM-5.3-Flash",
+    "start_time": "2026-09-18T21:14:04.502Z",
+    "end_time": "2026-09-18T21:18:13.732Z",
+    "total_time_ms": 249230,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
+    "model": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "start_time": "2026-09-18T22:24:41.486Z",
+    "end_time": "2026-09-18T22:37:09.348Z",
+    "total_time_ms": 747862,
+    "status": "ready"
+  }
+]
