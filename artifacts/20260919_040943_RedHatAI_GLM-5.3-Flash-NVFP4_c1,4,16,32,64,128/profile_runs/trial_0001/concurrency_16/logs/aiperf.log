@@ -1,0 +1,96 @@
+2026-09-19 04:20:11.569 - system_controller - INFO - Registered Worker Manager (id: 'worker_manager')
+2026-09-19 04:20:11.580 - server_metrics_manager - INFO - Server Metrics: Discovered 1 endpoints: ['http://localhost:8000/metrics']
+2026-09-19 04:20:11.602 - GPUTelemetryJSONLWriter_bbeb38db - INFO - GPU telemetry export enabled: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/profile_runs/trial_0001/concurrency_16/gpu_telemetry_export.jsonl
+2026-09-19 04:20:11.608 - OTelMetricsResultsProcessor_54388cc7 - INFO - Telemetry streaming is disabled (set --otel-url and/or --mlflow-tracking-uri to enable)
+2026-09-19 04:20:11.610 - RecordExportJSONLWriter_df32bc91 - INFO - Record metrics export enabled: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/profile_runs/trial_0001/concurrency_16/profile_export.jsonl
+2026-09-19 04:20:11.631 - system_controller - INFO - Registered Records Manager (id: 'records_manager')
+2026-09-19 04:20:11.637 - system_controller - INFO - Registered Record Processor (id: 'record_processor_1541bec5')
+2026-09-19 04:20:11.639 - system_controller - INFO - Registered Record Processor (id: 'record_processor_d204096e')
+2026-09-19 04:20:11.641 - system_controller - INFO - Registered Record Processor (id: 'record_processor_08a4475d')
+2026-09-19 04:20:11.642 - system_controller - INFO - Registered Record Processor (id: 'record_processor_3f66f9b1')
+2026-09-19 04:20:11.684 - system_controller - INFO - Registered Gpu Telemetry Manager (id: 'gpu_telemetry_manager')
+2026-09-19 04:20:11.694 - system_controller - INFO - Registered Dataset Manager (id: 'dataset_manager')
+2026-09-19 04:20:11.699 - system_controller - INFO - Registered Server Metrics Manager (id: 'server_metrics_manager')
+2026-09-19 04:20:11.750 - system_controller - INFO - Registered Timing Manager (id: 'timing_manager')
+2026-09-19 04:20:11.777 - system_controller - INFO - Registered Worker (id: 'worker_b00e3b1f')
+2026-09-19 04:20:11.802 - system_controller - INFO - Registered Worker (id: 'worker_1ff3de8e')
+2026-09-19 04:20:11.881 - system_controller - INFO - Registered Worker (id: 'worker_e281761e')
+2026-09-19 04:20:11.882 - system_controller - INFO - Registered Worker (id: 'worker_d6bafaae')
+2026-09-19 04:20:11.883 - system_controller - INFO - Registered Worker (id: 'worker_cfbc2fa2')
+2026-09-19 04:20:11.885 - system_controller - INFO - Registered Worker (id: 'worker_ce55ceb7')
+2026-09-19 04:20:11.886 - system_controller - INFO - Registered Worker (id: 'worker_f6b6ed85')
+2026-09-19 04:20:11.886 - system_controller - INFO - Registered Worker (id: 'worker_3cfb94db')
+2026-09-19 04:20:11.887 - system_controller - INFO - Registered Worker (id: 'worker_97422217')
+2026-09-19 04:20:11.887 - system_controller - INFO - Registered Worker (id: 'worker_81df4f92')
+2026-09-19 04:20:11.888 - system_controller - INFO - Registered Worker (id: 'worker_24d96376')
+2026-09-19 04:20:11.888 - system_controller - INFO - Registered Worker (id: 'worker_602f834c')
+2026-09-19 04:20:11.889 - system_controller - INFO - Registered Worker (id: 'worker_1cab1b4b')
+2026-09-19 04:20:11.893 - system_controller - INFO - Registered Worker (id: 'worker_29bd2cbd')
+2026-09-19 04:20:11.894 - system_controller - INFO - Registered Worker (id: 'worker_68ceeae8')
+2026-09-19 04:20:11.896 - system_controller - INFO - Registered Worker (id: 'worker_4d3960e2')
+2026-09-19 04:20:12.065 - system_controller - INFO - AIPerf System is CONFIGURING
+2026-09-19 04:20:12.065 - system_controller - INFO - Configuring all services to start profiling
+2026-09-19 04:20:12.066 - timing_manager - INFO - Waiting for dataset to be configured before configuring timing
+2026-09-19 04:20:12.066 - InferenceResultParser_dbdd38f0 - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-19 04:20:12.066 - InferenceResultParser_ad1f7080 - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-19 04:20:12.066 - InferenceResultParser_3e58acda - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-19 04:20:12.066 - InferenceResultParser_6b332363 - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-19 04:20:12.067 - dataset_manager - INFO - Configuring tokenizer(s) for dataset manager
+2026-09-19 04:20:12.075 - server_metrics_manager - INFO - Server Metrics: Capturing baseline metrics...
+2026-09-19 04:20:12.077 - gpu_telemetry_manager - INFO - GPU Telemetry: Capturing baseline metrics from pynvml://localhost
+2026-09-19 04:20:12.085 - pynvml_collector - INFO - PyNVML initialized with 1 GPU(s) (1 with GPM support)
+2026-09-19 04:20:12.087 - http://localhost:8000/metrics - INFO - Skipping unsupported summary metric: http_request_size_bytes
+2026-09-19 04:20:12.088 - http://localhost:8000/metrics - INFO - Skipping unsupported summary metric: http_response_size_bytes
+2026-09-19 04:20:12.089 - system_controller - INFO - Server metrics enabled - 1/1 endpoint(s) reachable.
+2026-09-19 04:20:12.090 - system_controller - INFO - Waiting for result domains: profile, server_metrics, telemetry
+2026-09-19 04:20:12.095 - system_controller - INFO - DCGM telemetry enabled - 1/1 endpoint(s) reachable
+2026-09-19 04:20:13.267 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/RedHatAI/GLM-5.3-Flash-NVFP4/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-19 04:20:13.307 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/RedHatAI/GLM-5.3-Flash-NVFP4/18d55bfd5a2194887738da73753975c9d3842f46/config.json?%2FRedHatAI%2FGLM-5.3-Flash-NVFP4%2Fresolve%2Fmain%2Fconfig.json=&etag=%22e62581648d702e1d270189b4efdc001ac2844279%22 "HTTP/1.1 200 OK"
+2026-09-19 04:20:13.530 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/RedHatAI/GLM-5.3-Flash-NVFP4/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-19 04:20:13.568 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/RedHatAI/GLM-5.3-Flash-NVFP4/18d55bfd5a2194887738da73753975c9d3842f46/tokenizer_config.json?%2FRedHatAI%2FGLM-5.3-Flash-NVFP4%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%220891a18eef6fc3d26dd2e87796ed39c7f91e3a77%22 "HTTP/1.1 200 OK"
+2026-09-19 04:20:13.767 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/RedHatAI/GLM-5.3-Flash-NVFP4/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-19 04:20:13.969 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/RedHatAI/GLM-5.3-Flash-NVFP4/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-19 04:20:15.104 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/RedHatAI/GLM-5.3-Flash-NVFP4 "HTTP/1.1 200 OK"
+2026-09-19 04:20:15.155 - dataset_manager - INFO - Tokenizer(s) configured in 3.09 seconds
+2026-09-19 04:20:15.155 - dataset_manager - INFO - Configuring dataset for dataset_manager
+2026-09-19 04:20:15.454 - MemoryMapDatasetBackingStore_53f6cd72 - INFO - Memory-mapped backing store initialized (streaming to /tmp/aiperf_mmap_b1dfe5a693714125a65d5248cb248f6b/dataset.dat)
+2026-09-19 04:20:15.460 - MemoryMapDatasetBackingStore_53f6cd72 - INFO - Data file finalized: 100 conversations, 0.51 MB
+2026-09-19 04:20:15.461 - MemoryMapDatasetBackingStore_53f6cd72 - INFO - Index file created: /tmp/aiperf_mmap_b1dfe5a693714125a65d5248cb248f6b/index.dat
+2026-09-19 04:20:15.462 - dataset_manager - INFO - Backing store finalized: client_type=DatasetClientStoreType.MEMORY_MAP format=MemoryMapFormat.CONVERSATION data_file_path=PosixPath('/tmp/aiperf_mmap_b1dfe5a693714125a65d5248cb248f6b/dataset.dat') index_file_path=PosixPath('/tmp/aiperf_mmap_b1dfe5a693714125a65d5248cb248f6b/index.dat') conversation_count=100 total_size_bytes=531162 compressed=False compressed_data_file_path=None compressed_index_file_path=None compressed_size_bytes=0
+2026-09-19 04:20:15.464 - dataset_manager - INFO - sampling strategy: sequential, unique conversations: 100, unique turn count: 100
+2026-09-19 04:20:15.465 - dataset_manager - INFO - Generating inputs.json file at /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/profile_runs/trial_0001/concurrency_16/inputs.json
+2026-09-19 04:20:15.467 - PhaseOrchestrator_a4a9d10e - INFO - Initialized 1 phase(s): ['Profiling']
+2026-09-19 04:20:15.468 - dataset_manager - INFO - inputs.json file generated in 0.00 seconds
+2026-09-19 04:20:15.534 - dataset_manager - INFO - Dataset client initialized and freed 100 conversations from memory
+2026-09-19 04:20:15.535 - dataset_manager - INFO - Dataset configured in 0.38 seconds
+2026-09-19 04:20:15.536 - system_controller - INFO - All services configured in 3.47 seconds
+2026-09-19 04:20:15.536 - system_controller - INFO - AIPerf System is CONFIGURED
+2026-09-19 04:20:15.537 - server_metrics_manager - INFO - Server Metrics: Started 1 collector(s) successfully
+2026-09-19 04:20:15.538 - system_controller - INFO - All services started profiling successfully
+2026-09-19 04:20:15.539 - system_controller - INFO - AIPerf System is PROFILING
+2026-09-19 04:20:15.539 - RateTiming - INFO - Creating interval generator: pattern=concurrency_burst, rate=None, smoothness=None
+2026-09-19 04:20:15.540 - PhaseRunner - NOTICE - Phase profiling (profiling) started | phase_index=0 | profiling_index=0 | target: 300.0s duration
+2026-09-19 04:20:15.540 - PhaseRunner - INFO - Waiting for event 'profiling phase sending' with timeout of 299.999282717s
+2026-09-19 04:20:15.541 - records_manager - INFO - Credit phase start: profiling
+2026-09-19 04:25:15.541 - PhaseRunner - INFO - Timeout of 299.999282717s elapsed for event 'profiling phase sending'
+2026-09-19 04:25:15.542 - PhaseRunner - NOTICE - Phase profiling (profiling) sending complete | sent=608, completed=592, in_flight=16 | sessions: sent=608, completed=592 | timeout_triggered=True
+2026-09-19 04:25:15.542 - PhaseRunner - INFO - Waiting for event 'profiling phase credits returned' with timeout of 29.99743983899998s
+2026-09-19 04:25:15.542 - records_manager - INFO - Sent 608 requests. Waiting for all to complete...
+2026-09-19 04:25:21.374 - PhaseRunner - NOTICE - Phase profiling (profiling) complete | completed=608, cancelled=0, errors=0 | sessions: completed=608, cancelled=0 | elapsed=305.83s
+2026-09-19 04:25:21.374 - PhaseOrchestrator_a4a9d10e - NOTICE - All credits completed
+2026-09-19 04:25:21.376 - system_controller - INFO - Received credits complete from 'timing_manager'
+2026-09-19 04:25:21.375 - records_manager - INFO - Received CREDIT_PHASE_COMPLETE message, Phase complete: PhaseRecordsStats(phase=CreditPhase.PROFILING, phase_index=0, profiling_index=0, phase_name='profiling', phase_kind='profiling', start_ns=1789762815540212430, sent_end_ns=1789763115542017162, requests_end_ns=1789763121373971711, baseline_start_ns=1789762815540200334, baseline_end_ns=1789763121373978079, total_expected_requests=None, expected_duration_sec=None, expected_num_sessions=None, expected_grace_period_sec=None, final_requests_sent=None, final_requests_completed=608, final_requests_cancelled=0, final_request_errors=0, final_sent_sessions=None, final_completed_sessions=None, final_cancelled_sessions=None, timeout_triggered=True, grace_period_timeout_triggered=False, was_cancelled=False, records_end_ns=None, success_records=593, error_records=0)
+2026-09-19 04:25:21.377 - records_manager - NOTICE - All requests have completed, please wait for the results to be processed (currently 593 of 608 records processed)...
+2026-09-19 04:25:21.378 - records_manager - INFO - All credits complete, please wait for the results to be processed...
+2026-09-19 04:25:21.393 - records_manager - INFO - Processed 608 valid requests and 0 errors (608 total).
+2026-09-19 04:25:21.394 - records_manager - INFO - Received all records, processing now...
+2026-09-19 04:25:21.395 - server_metrics_manager - INFO - Server Metrics: Profiling complete, capturing final metrics...
+2026-09-19 04:25:21.395 - gpu_telemetry_manager - INFO - GPU Telemetry: Profiling complete, capturing final metrics...
+2026-09-19 04:25:21.395 - records_manager - INFO - Waiting 2.0s for server metrics flush period...
+2026-09-19 04:25:23.374 - records_manager - INFO - Processing records results...
+2026-09-19 04:25:23.904 - system_controller - INFO - Waiting for result domains: server_metrics, telemetry
+2026-09-19 04:25:23.904 - system_controller - INFO - Waiting for result domains: server_metrics
+2026-09-19 04:25:24.212 - records_manager - INFO - _finalize_and_process_results completed
+2026-09-19 04:25:24.216 - system_controller - INFO - All results received, initiating shutdown
+2026-09-19 04:25:24.819 - ExporterManager - INFO - Exporting all records
+2026-09-19 04:25:24.926 - ExporterManager - INFO - Exporting console data

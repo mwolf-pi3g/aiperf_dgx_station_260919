@@ -1,0 +1,159 @@
+2026-09-19 04:09:45.461 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 04:09:45.463 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-19 04:09:45.464 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-19 04:09:45.464 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 2
+2026-09-19 04:09:45.464 - aiperf.cli_runner._multi_run - INFO -   Total runs: 12
+2026-09-19 04:09:45.465 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-19 04:09:45.465 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 60.0s
+2026-09-19 04:09:45.465 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 04:09:45.466 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 4620s
+2026-09-19 04:09:45.467 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 2 trials x 6 variations
+2026-09-19 04:09:45.468 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-19 04:09:46.239 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:09:46.248 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:09:46.248 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:09:46.251 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:14:57.572 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-19 04:14:58.348 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:14:58.356 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:14:58.356 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:14:58.357 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:20:10.608 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-19 04:20:11.390 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:20:11.399 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:20:11.399 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:20:11.400 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:25:24.985 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-19 04:25:25.758 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:25:25.766 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:25:25.767 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:25:25.767 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:30:38.254 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-19 04:30:39.018 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:30:39.026 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:30:39.026 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:30:39.027 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:35:59.017 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-19 04:35:59.767 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:35:59.775 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:35:59.775 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:35:59.776 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:41:22.922 - aiperf.orchestrator.orchestrator - INFO - Inter-trial cooldown: 60.0s
+2026-09-19 04:42:22.984 - aiperf.orchestrator.orchestrator - INFO - [v0 t1] Executing run_0002...
+2026-09-19 04:42:23.750 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:42:23.758 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:42:23.759 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:42:23.759 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:47:33.552 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 04:47:33.554 - aiperf.orchestrator.orchestrator - INFO - [v1 t1] Executing run_0002...
+2026-09-19 04:47:34.331 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:47:34.339 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:47:34.340 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:47:34.340 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:52:46.142 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 04:52:46.144 - aiperf.orchestrator.orchestrator - INFO - [v2 t1] Executing run_0002...
+2026-09-19 04:52:46.921 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:52:46.929 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:52:46.930 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:52:46.930 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 04:57:59.970 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 04:57:59.973 - aiperf.orchestrator.orchestrator - INFO - [v3 t1] Executing run_0002...
+2026-09-19 04:58:00.746 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 04:58:00.754 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 04:58:00.754 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 04:58:00.755 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 05:03:13.378 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 05:03:13.381 - aiperf.orchestrator.orchestrator - INFO - [v4 t1] Executing run_0002...
+2026-09-19 05:03:14.144 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 05:03:14.152 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 05:03:14.152 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 05:03:14.153 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 05:08:31.963 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                            64                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 05:08:31.966 - aiperf.orchestrator.orchestrator - INFO - [v5 t1] Executing run_0002...
+2026-09-19 05:08:32.721 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-19 05:08:32.729 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer RedHatAI/GLM-5.3-Flash-NVFP4 detected
+2026-09-19 05:08:32.729 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-19 05:08:32.729 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['RedHatAI/GLM-5.3-Flash-NVFP4']
+2026-09-19 05:13:55.353 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                                                                                                2  
+                             4                                                                                                2  
+                            16                                                                                                2  
+                            32                                                                                                2  
+                            64                                                                                                2  
+                           128                                                                                                2  
+                                                                                                                                 
+
+2026-09-19 05:13:55.355 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 12/12 runs successful
+2026-09-19 05:13:55.357 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 05:13:55.357 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-19 05:13:55.357 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-19 05:13:55.538 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.539 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-19 05:13:55.540 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.540 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.562 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-19 05:13:55.563 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-19 05:13:55.563 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-19 05:13:55.564 - aiperf.cli_runner._multi_run - INFO - 
+2026-09-19 05:13:55.564 - aiperf.cli_runner._multi_run - INFO - Best Configurations:
+2026-09-19 05:13:55.564 - aiperf.cli_runner._multi_run - INFO -   Best throughput: concurrency=128 (5.95 requests/sec)
+2026-09-19 05:13:55.564 - aiperf.cli_runner._multi_run - INFO -   Best latency (p99): concurrency=4 (387.79 ms)
+2026-09-19 05:13:55.565 - aiperf.cli_runner._multi_run - INFO -   Pareto optimal points: [{'concurrency': 4}, {'concurrency': 16}, {'concurrency': 32}, {'concurrency': 64}, {'concurrency': 128}]
+2026-09-19 05:13:55.572 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.573 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.573 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.601 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.602 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.602 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.631 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.631 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.632 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.660 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.661 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.661 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=64) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_64/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.690 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.json
+2026-09-19 05:13:55.690 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.csv
+2026-09-19 05:13:55.691 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=128) JSON: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.json; CSV: /root/llm_perf/artifacts/20260919_040943_RedHatAI_GLM-5.3-Flash-NVFP4_c1,4,16,32,64,128/aggregate/concurrency_128/profile_export_aiperf_aggregate.csv
